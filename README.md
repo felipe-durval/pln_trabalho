@@ -1,101 +1,78 @@
-# Análise de Emoções e Busca Textual em Avaliações de Assistentes de IA Generativa
+# Corpus de Avaliações de Assistentes de IA Generativa
 
-Projeto acadêmico de Processamento de Linguagem Natural (PLN) voltado
-à análise de emoções e à busca textual em avaliações de dez assistentes
-de IA generativa populares na Google Play.
-
-## Objetivo
-
-Construir e preparar um corpus de avaliações em português, identificar
-evidências de emoções por técnicas tradicionais de PLN e recuperar
-comentários relacionados a assuntos de interesse.
-
-As estrelas serão utilizadas como informações complementares para
-filtros e comparações. Elas não serão utilizadas para determinar as
-emoções presentes nos textos.
+Projeto acadêmico de Processamento de Linguagem Natural (PLN) para
+construção e preparação de um corpus de avaliações da Google Play,
+destinado à futura análise de sentimentos e emoções.
 
 ## Corpus
 
-Foram coletadas 5.000 avaliações, distribuídas entre os aplicativos:
+O corpus contém 5.000 avaliações de dez aplicativos: ChatGPT, Google
+Gemini, Grok, Meta AI, Perplexity, Nova, Dola, Claude, DeepSeek e Luzia.
 
-- ChatGPT
-- Google Gemini
-- Grok
-- Meta AI
-- Perplexity
-- Nova
-- Dola
-- Claude
-- DeepSeek
-- Luzia
+Foram coletadas 100 avaliações por nota, de 1 a 5 estrelas, para cada
+aplicativo, utilizando a biblioteca não oficial `google-play-scraper`,
+com os parâmetros `lang="pt"`, `country="br"` e ordenação por relevância.
 
-A seleção dos aplicativos foi intencional, sem pretensão de representar
-um ranking dos dez mais baixados.
+Os registros foram preservados em 50 arquivos JSON. Nomes e fotos
+dos usuários não foram armazenados. A seleção dos aplicativos não
+representa um ranking de downloads.
 
-A coleta foi realizada com `google-play-scraper==1.2.7`, uma biblioteca
-não oficial, utilizando:
+## Trabalho 1 — Construção e preparação do corpus
 
-- Idioma: português (`lang="pt"`).
-- Região: Brasil (`country="br"`).
-- Ordenação: avaliações mais recentes primeiro.
-- Quantidade: 100 avaliações por nota, de 1 a 5, para cada aplicativo.
+Etapas realizadas:
 
-Os dados foram armazenados em 50 arquivos JSON, separados por
-aplicativo e nota. Os textos foram preservados conforme retornados
-pela biblioteca. Nomes e fotos dos usuários não foram armazenados.
+- Coleta e conferência da integridade dos registros.
+- Consolidação das avaliações em CSV.
+- Limpeza de espaços e conversão para minúsculas.
+- Tokenização e lematização com spaCy.
+- Salvamento de duas versões: com tokens e com lemas.
+- Análise descritiva apresentada em quatro tabelas.
+- Elaboração do relatório técnico.
 
-## Trabalho 1 — PLN tradicional
+Os textos originais foram preservados. Não foram removidos acentos,
+pontuação, emojis ou stopwords, e não foi aplicado stemming.
 
-Etapas planejadas:
+## Trabalho 2 — Análise de sentimentos e emoções
 
-- Consolidação e análise exploratória do corpus.
-- Limpeza, normalização e tokenização dos textos.
-- Tratamento de stopwords e experimentos com stemming.
-- Representação textual com TF-IDF e busca por similaridade.
-- Análise de emoções baseada em léxico.
-- Avaliação com amostras revisadas manualmente, métricas,
-  abordagens de referência e análise de erros.
-- Produção de pelo menos quatro visualizações relevantes.
+A próxima etapa utilizará o corpus preparado para análise de sentimentos
+e emoções, com avaliação dos métodos e integração de um componente
+contemporâneo de PLN.
 
-O léxico e as categorias emocionais ainda serão definidos.
-Uma avaliação poderá apresentar evidências de múltiplas emoções.
-A ausência de correspondências no léxico não será interpretada
-automaticamente como neutralidade emocional.
-
-## Trabalho 2 — Componente contemporâneo
-
-A aplicação será ampliada com um recurso de IA generativa para
-produzir sínteses dos comentários recuperados pela busca textual,
-apresentando referências às avaliações utilizadas.
+As estrelas serão utilizadas como metadados, não como rótulos de emoções.
 
 ## Organização
 
-- `notebooks/`: notebooks das etapas do projeto.
-- `data/raw/`: dados brutos preservados, sem edição manual.
-- `data/interim/`: dados consolidados e transformações intermediárias.
-- `data/processed/`: dados preparados para os métodos de análise.
+- `notebooks/01_coleta.ipynb`: coleta e conferência dos dados.
+- `notebooks/02_preparacao.ipynb`: preparação e análise descritiva.
+- `data/raw/`: arquivos brutos da coleta.
+- `data/interim/`: CSV consolidado.
+- `data/processed/`: versões preparadas com tokens e com lemas.
+- `requirements.txt`: dependências Python.
 
-## Ambiente de execução
+## Execução
 
-O desenvolvimento é realizado em Python, utilizando Google Colab,
-com versionamento local por Git.
+Os notebooks estão configurados para Google Colab e Google Drive.
 
-O notebook de coleta utiliza atualmente o Google Drive para armazenar
-os dados. A execução local exige a adaptação dos caminhos e das células
-específicas do Colab.
+1. Disponibilize a pasta `pln_trabalho` no Drive, mantendo a estrutura
+   de dados do projeto.
+2. Abra o notebook desejado no Colab e autorize a conexão com o Drive.
+3. Confira o caminho `/content/drive/MyDrive/pln_trabalho`.
+4. Execute as células na ordem, incluindo as instalações necessárias.
 
-O arquivo de dependências e as instruções completas de reprodução
-serão adicionados conforme as próximas etapas forem implementadas.
+Com os arquivos brutos disponíveis, não é necessário repetir a coleta:
+execute diretamente `02_preparacao.ipynb`.
+
+A execução local exige adaptar os caminhos e remover as células de
+conexão com o Colab/Drive. O ambiente registrado utiliza Python 3.13.15,
+pandas 2.2.3, spaCy 3.8.16 e o modelo `pt_core_news_sm` 3.8.0.
 
 ## Limitações
 
-- A amostragem equilibrada por estrelas não representa a distribuição
-  natural das avaliações nem garante equilíbrio entre emoções.
-- As avaliações representam os autores dos comentários coletados,
-  não todos os usuários dos aplicativos.
-- Novas coletas podem retornar resultados diferentes.
-- Textos curtos, ironia, negação, erros ortográficos e emoções mistas
-  podem dificultar a análise.
-- Evidências obtidas por léxico não equivalem a rótulos humanos.
-- Os resultados dependem da cobertura e da adequação do léxico escolhido.
-
+- A seleção por relevância e as cotas por nota não representam a
+  distribuição natural das avaliações.
+- Os parâmetros de idioma e país não garantem textos exclusivamente
+  em português brasileiro.
+- Novas coletas podem retornar registros diferentes.
+- A tokenização pode separar emojis compostos, e a lematização pode
+  produzir formas incorretas.
+- O corpus ainda não possui rótulos de emoções.
