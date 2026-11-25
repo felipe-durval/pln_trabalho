@@ -1,0 +1,71 @@
+﻿termo,positive,negative,anger,anticipation,disgust,fear,joy,sadness,surprise,trust,justificativa,status
+bugado,0,1,0,0,0,0,0,0,0,0,Descrição informal de mau funcionamento; não identifica uma emoção específica.,proposto; não validado em amostra independente
+bugada,0,1,0,0,0,0,0,0,0,0,Descrição informal de mau funcionamento; não identifica uma emoção específica.,proposto; não validado em amostra independente
+bugados,0,1,0,0,0,0,0,0,0,0,Descrição informal de mau funcionamento; não identifica uma emoção específica.,proposto; não validado em amostra independente
+bugadas,0,1,0,0,0,0,0,0,0,0,Descrição informal de mau funcionamento; não identifica uma emoção específica.,proposto; não validado em amostra independente
+travamento,0,1,0,0,0,0,0,0,0,0,Referência a falha técnica no domínio dos aplicativos; contexto pode negar ou relatar resolução do problema.,proposto; não validado em amostra independente
+travamentos,0,1,0,0,0,0,0,0,0,0,Referência a falha técnica no domínio dos aplicativos; contexto pode negar ou relatar resolução do problema.,proposto; não validado em amostra independente
+crash,0,1,0,0,0,0,0,0,0,0,Referência a falha técnica no domínio dos aplicativos; contexto pode negar ou relatar resolução do problema.,proposto; não validado em amostra independente
+crashes,0,1,0,0,0,0,0,0,0,0,Referência a falha técnica no domínio dos aplicativos; contexto pode negar ou relatar resolução do problema.,proposto; não validado em amostra independente
+amei,1,0,0,0,0,0,1,0,0,0,"Expressão de apreciação; hipótese de associação com alegria, sujeita a negação e ironia.",proposto; não validado em amostra independente
+adorei,1,0,0,0,0,0,1,0,0,0,"Expressão de apreciação; hipótese de associação com alegria, sujeita a negação e ironia.",proposto; não validado em amostra independente
+decepcionado,0,1,0,0,0,0,0,1,0,0,Expressão de decepção; aproximação à categoria tristeza entre as oito categorias disponíveis.,proposto; não validado em amostra independente
+decepcionada,0,1,0,0,0,0,0,1,0,0,Expressão de decepção; aproximação à categoria tristeza entre as oito categorias disponíveis.,proposto; não validado em amostra independente
+decepcionante,0,1,0,0,0,0,0,1,0,0,Expressão de decepção; aproximação à categoria tristeza entre as oito categorias disponíveis.,proposto; não validado em amostra independente
+irritado,0,1,1,0,0,0,0,0,0,0,Expressão de irritação; aproximação à categoria raiva entre as oito categorias disponíveis.,proposto; não validado em amostra independente
+irritada,0,1,1,0,0,0,0,0,0,0,Expressão de irritação; aproximação à categoria raiva entre as oito categorias disponíveis.,proposto; não validado em amostra independente
+irritante,0,1,1,0,0,0,0,0,0,0,Expressão de irritação; aproximação à categoria raiva entre as oito categorias disponíveis.,proposto; não validado em amostra independente
+receoso,0,1,0,0,0,1,0,0,0,0,"Expressão de receio; hipótese de associação com medo, dependente do contexto.",proposto; não validado em amostra independente
+receosa,0,1,0,0,0,1,0,0,0,0,"Expressão de receio; hipótese de associação com medo, dependente do contexto.",proposto; não validado em amostra independente
+confiável,1,0,0,0,0,0,0,0,0,1,Atribuição de confiabilidade; hipótese de associação com confiança.,proposto; não validado em amostra independente
+inconfiável,0,1,0,0,0,0,0,0,0,0,Ausência de confiabilidade; não implica automaticamente medo nem outra emoção específica.,proposto; não validado em amostra independente
+burro,0,1,1,0,0,0,0,0,0,0,"Insulto que pode funcionar como manifestação de hostilidade; associação proposta com raiva, sem afirmar a emoção do autor em todo contexto.",proposto; não validado em amostra independente
+burra,0,1,1,0,0,0,0,0,0,0,"Insulto que pode funcionar como manifestação de hostilidade; associação proposta com raiva, sem afirmar a emoção do autor em todo contexto.",proposto; não validado em amostra independente
+imbecil,0,1,1,0,0,0,0,0,0,0,"Insulto que pode funcionar como manifestação de hostilidade; associação proposta com raiva, sem afirmar a emoção do autor em todo contexto.",proposto; não validado em amostra independente
+idiota,0,1,1,0,0,0,0,0,0,0,"Insulto que pode funcionar como manifestação de hostilidade; associação proposta com raiva, sem afirmar a emoção do autor em todo contexto.",proposto; não validado em amostra independente
+lerdo,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+lerda,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+lento,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+lenta,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+lentidão,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+inútil,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+inutil,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+inutilizável,0,1,0,0,0,0,0,0,0,0,Crítica a desempenho ou utilidade; não identifica por si só uma emoção específica. Comparações e negação podem alterar o sentido.,proposto; não validado em amostra independente
+top,1,0,0,0,0,0,1,0,0,0,Possível elogio informal a um aplicativo; associação proposta com alegria. Gírias podem ter outros sentidos e exigem revisão em contexto.,proposto; não validado em amostra independente
+dhr,1,0,0,0,0,0,1,0,0,0,Possível elogio informal a um aplicativo; associação proposta com alegria. Gírias podem ter outros sentidos e exigem revisão em contexto.,proposto; não validado em amostra independente
+daora,1,0,0,0,0,0,1,0,0,0,Possível elogio informal a um aplicativo; associação proposta com alegria. Gírias podem ter outros sentidos e exigem revisão em contexto.,proposto; não validado em amostra independente
+massa,1,0,0,0,0,0,1,0,0,0,Possível elogio informal a um aplicativo; associação proposta com alegria. Gírias podem ter outros sentidos e exigem revisão em contexto.,proposto; não validado em amostra independente
+foda,0,0,0,0,0,0,0,0,0,0,"Pode expressar elogio ou dificuldade: ""app foda"" versus ""é foda usar isso"". Registrado sem associação fixa; não acrescenta categorias à análise por token. Associações já existentes no EmoLex não são removidas pelo complemento.",ambíguo; requer contexto; sem associação adicionada
+traiçoeiro,0,1,0,0,0,0,0,0,0,0,Avaliação de falta de confiança ou comportamento enganoso; não atribui automaticamente medo ou outra emoção.,proposto; não validado em amostra independente
+traiçoeira,0,1,0,0,0,0,0,0,0,0,Avaliação de falta de confiança ou comportamento enganoso; não atribui automaticamente medo ou outra emoção.,proposto; não validado em amostra independente
+péssimo,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+péssima,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+horrível,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+horrivel,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+horroroso,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+horrorosa,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+instável,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+instavel,0,1,0,0,0,0,0,0,0,0,Avaliação desfavorável ou crítica de funcionamento; emoção específica não determinada pelo termo isolado.,proposto; não validado em amostra independente
+sensacional,1,0,0,0,0,0,1,0,0,0,"Elogio entusiasmado ou variante informal de ""amei""; associação proposta com alegria, sujeita a ironia e negação.",proposto; não validado em amostra independente
+maravilhoso,1,0,0,0,0,0,1,0,0,0,"Elogio entusiasmado ou variante informal de ""amei""; associação proposta com alegria, sujeita a ironia e negação.",proposto; não validado em amostra independente
+maravilhosa,1,0,0,0,0,0,1,0,0,0,"Elogio entusiasmado ou variante informal de ""amei""; associação proposta com alegria, sujeita a ironia e negação.",proposto; não validado em amostra independente
+ameiii,1,0,0,0,0,0,1,0,0,0,"Elogio entusiasmado ou variante informal de ""amei""; associação proposta com alegria, sujeita a ironia e negação.",proposto; não validado em amostra independente
+ameiiii,1,0,0,0,0,0,1,0,0,0,"Elogio entusiasmado ou variante informal de ""amei""; associação proposta com alegria, sujeita a ironia e negação.",proposto; não validado em amostra independente
+revoltado,0,1,1,0,0,0,0,0,0,0,"Expressão de revolta, ódio ou forte aversão; associação proposta com raiva no contexto de avaliação.",proposto; não validado em amostra independente
+revoltada,0,1,1,0,0,0,0,0,0,0,"Expressão de revolta, ódio ou forte aversão; associação proposta com raiva no contexto de avaliação.",proposto; não validado em amostra independente
+ódio,0,1,1,0,0,0,0,0,0,0,"Expressão de revolta, ódio ou forte aversão; associação proposta com raiva no contexto de avaliação.",proposto; não validado em amostra independente
+odiei,0,1,1,0,0,0,0,0,0,0,"Expressão de revolta, ódio ou forte aversão; associação proposta com raiva no contexto de avaliação.",proposto; não validado em amostra independente
+frustrado,0,1,1,0,0,0,0,1,0,0,"Frustração pode envolver irritação e decepção; aproximação proposta às categorias raiva e tristeza, a verificar em exemplos.",proposto; não validado em amostra independente
+frustrada,0,1,1,0,0,0,0,1,0,0,"Frustração pode envolver irritação e decepção; aproximação proposta às categorias raiva e tristeza, a verificar em exemplos.",proposto; não validado em amostra independente
+desapontado,0,1,0,0,0,0,0,1,0,0,Expressão de desapontamento ou desânimo; associação proposta com tristeza.,proposto; não validado em amostra independente
+desapontada,0,1,0,0,0,0,0,1,0,0,Expressão de desapontamento ou desânimo; associação proposta com tristeza.,proposto; não validado em amostra independente
+desanimador,0,1,0,0,0,0,0,1,0,0,Expressão de desapontamento ou desânimo; associação proposta com tristeza.,proposto; não validado em amostra independente
+assustador,0,1,0,0,0,1,0,0,0,0,"Possível reação de medo ou preocupação com respostas, privacidade ou comportamento do aplicativo; exige contexto.",proposto; não validado em amostra independente
+assustadora,0,1,0,0,0,1,0,0,0,0,"Possível reação de medo ou preocupação com respostas, privacidade ou comportamento do aplicativo; exige contexto.",proposto; não validado em amostra independente
+preocupante,0,1,0,0,0,1,0,0,0,0,"Possível reação de medo ou preocupação com respostas, privacidade ou comportamento do aplicativo; exige contexto.",proposto; não validado em amostra independente
+surpreso,0,0,0,0,0,0,0,0,1,0,"Expressão de surpresa, que pode ser agradável ou desagradável; não recebe polaridade fixa neste complemento.",proposto; não validado em amostra independente
+surpresa,0,0,0,0,0,0,0,0,1,0,"Expressão de surpresa, que pode ser agradável ou desagradável; não recebe polaridade fixa neste complemento.",proposto; não validado em amostra independente
+ansioso,0,0,0,1,0,0,0,0,0,0,"Pode expressar expectativa por recursos, mas também ansiedade ou preocupação; associação proposta com antecipação requer revisão. Sem polaridade fixa.",proposto; não validado em amostra independente
+ansiosa,0,0,0,1,0,0,0,0,0,0,"Pode expressar expectativa por recursos, mas também ansiedade ou preocupação; associação proposta com antecipação requer revisão. Sem polaridade fixa.",proposto; não validado em amostra independente
+seguro,1,0,0,0,0,0,0,0,0,1,"Possível avaliação de segurança e confiança no aplicativo; palavras polissêmicas, dependentes de contexto.",proposto; não validado em amostra independente
+segura,1,0,0,0,0,0,0,0,0,1,"Possível avaliação de segurança e confiança no aplicativo; palavras polissêmicas, dependentes de contexto.",proposto; não validado em amostra independente
